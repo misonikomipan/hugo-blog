@@ -1,6 +1,5 @@
 baseurl: https://mizobuchi.dev/
 languageCode: ja
-theme: hugo-theme-stack
 paginate.pagerSize: 5
 title: Mizobuchi's Blog
 copyright: Yusaku Mizobuchi
