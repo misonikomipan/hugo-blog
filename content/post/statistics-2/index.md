@@ -10,7 +10,7 @@ categories:
 weight: 1       # You can add weight to some posts to override the default sorting (date descending)
 ---
 
-こんにちは、misonikomipanです。
+こんにちは、溝渕です。
 2023/08/20に統計検定2級を受験し合格できたので、その過程を本ページに記します。
 
 ## 受験動機
