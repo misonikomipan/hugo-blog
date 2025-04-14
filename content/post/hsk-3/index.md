@@ -7,7 +7,6 @@ image: cover.jpg
 categories:
     - 資格試験
     - 中国語
-weight: 1       # You can add weight to some posts to override the default sorting (date descending)
 ---
 
 こんにちは、溝渕です。
