@@ -54,6 +54,21 @@ https://marketplace.visualstudio.com/items/?itemName=REditorSupport.r
 `r.rpath.mac`にも同様の設定を行いました。
 ![r.rpath.macの設定画面のスクリーンショット](rpath.png)
 
+### 2025-04-21 追記：保存時に自動フォーマットする
+`cmd + shift + P`からsettings.jsonを開き、以下を設定しました。
+```
+"[r]": {
+        // インデント幅を2にする
+        "editor.tabSize": 2,
+        // R ファイルを保存したときに整形を走らせる
+        "editor.formatOnSave": true,
+        // R 拡張をデフォルトのフォーマッタに指定
+        "editor.defaultFormatter": "REditorSupport.r"
+    },
+```
+![open-settings-json](open-settings-json.png)
+
+
 ## いろいろ試してみる
 `cmd+Enter`を入力すると、現在カーソルを当てている行が実行されていく仕組みらしいです。
 一括で実行したい場合は、`Rscript your_script.R`
